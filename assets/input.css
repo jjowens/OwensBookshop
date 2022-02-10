@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+section {
+    background-color: ghostwhite;
+    color: black;
+    @apply p-3 m-8 rounded-lg
+}
+
+aside {
+    background-color: lightskyblue;
+    color: black;
+    font-style: italic;
+    @apply text-3xl box-content h-36 w-36 rounded-lg p-3
+}
+
+h1 {
+    @apply text-4xl text-blue-500
+}
+
+
+h2 {
+    font-weight: bold;
+    @apply text-red-600
+}
+
+nav {
+    background-color: gainsboro;
+    color: black;
+    @apply rounded-lg p-3 m-3
+}
+
+nav a {
+    text-decoration: none;
+    @apply mr-1 p-1
+}
+
+nav a:hover {
+    background-color: #0066CC;
+    @apply text-white
+}
+
+.side-menu {
+	@apply pl-4 mr-4 text-200-blue flex-none w-1/5
+}
+
+.body-content {
+	@apply pl-4 mr-4 text-200-blue grow
+}

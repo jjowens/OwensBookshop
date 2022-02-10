@@ -1,0 +1,27 @@
+{
+  "name": "owensbookshop",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwindexport": "npx tailwindcss -c ./assets/tailwind.config.js -i ./assets/input.css -o ./OwensBookShop.Website/OwensBookShop.Website/assets/css/output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjowens/OwensBookshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjowens/OwensBookshop/issues"
+  },
+  "homepage": "https://github.com/jjowens/OwensBookshop#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.15"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.0.2",
+    "postcss": "^8.3.3"
+  }
+}

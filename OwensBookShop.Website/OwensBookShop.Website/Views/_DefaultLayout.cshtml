@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" type="text/css" href="~/assets/css/output.css" />
+</head>
+<body>
+    <div>
+        <h2>Owens Bookshop</h2>
+    </div>
+    <div class="flex">
+        <div class="side-menu">
+            @Html.Partial("_NavMenu")
+        </div>
+        <div class="body-content">
+            @RenderBody()
+        </div>
+    </div>
+</body>
+</html>
