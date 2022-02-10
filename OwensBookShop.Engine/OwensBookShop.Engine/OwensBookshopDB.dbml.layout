@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="OwensBookshopDB">
+  <DataContextMoniker Name="/OwensBookshopDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="e43fdc9d-a5d4-4aac-90ca-5265368f9d1c" absoluteBounds="0.75, 0.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/OwensBookshopDBDataContext/Author" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1e1b792e-74bb-49ed-bd18-94be4982d19c" absoluteBounds="0.765, 1.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b2682f8e-b7da-4b09-8fe5-79504343d2bb" absoluteBounds="3.75, 0.75, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/OwensBookshopDBDataContext/Genre" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bec2b513-5822-4487-9c05-0e47d5dfb578" absoluteBounds="3.765, 1.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d6324c7c-186d-4ffa-9ad3-b752da1b668f" absoluteBounds="0.75, 3.75, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/OwensBookshopDBDataContext/Book" />
+      <nestedChildShapes>
+        <elementListCompartment Id="442a23a3-fffc-468a-8414-5eed66a26efc" absoluteBounds="0.765, 4.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="78ef12c4-7de7-435f-aa4d-d338de667ba7" absoluteBounds="3.75, 2.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/OwensBookshopDBDataContext/BookAuthor" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3ce90fcc-f461-487b-b422-34afbd4d11ee" absoluteBounds="3.765, 3.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7d81a55b-db5c-4631-ac57-6f036518d784" absoluteBounds="3.75, 5.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/OwensBookshopDBDataContext/BookGenre" />
+      <nestedChildShapes>
+        <elementListCompartment Id="adec89ff-e5fa-4103-9dd3-590b98e47b97" absoluteBounds="3.765, 6.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
